@@ -1,0 +1,9 @@
+---
+- name: restart tomcat
+  service: name=tomcat state=restarted
+  
+- name: Start Tomcat
+  shell: nohup /usr/share/tomcat/bin/startup.sh
+
+- name: restart iptables
+  service: name=iptables state=restarted
