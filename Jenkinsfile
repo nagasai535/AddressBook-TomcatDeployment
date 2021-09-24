@@ -10,7 +10,7 @@ pipeline {
       stage('checkout') {
            steps {
              
-                git branch: 'master', url: 'https://github.com/Nishad47/AddressBook-TomcatDeployment.git'
+                git branch: 'master', url: 'https://github.com/nagasai535/AddressBook-TomcatDeployment.git'
              
           }
         }
