@@ -40,7 +40,7 @@ pipeline {
         
         
         
-        stage('Ansible Deploy') {
+        stage('Deploy') {
              
             steps {
                  
